@@ -1,0 +1,1 @@
+print(bytes.fromhex(input()).decode('CP866').encode('CP1251').decode('koi8-r'))
